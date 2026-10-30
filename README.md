@@ -6,7 +6,7 @@ The repository computes halfspace-based quantiles of random convex sets (random 
 from a finite sample, together with the related functionals and diagnostic plots, and reproduces the examples
 and figures of the paper.
 
-## Repository structure
+### Repository structure
  
 | File | Content                                                             |
 |---|---------------------------------------------------------------------|
@@ -23,7 +23,7 @@ and figures of the paper.
 | `data/` | Data files (see below)                                              |
 | `images/` | Figures produced by the notebooks                                   |
  
-## Installation
+### Installation
  
 Python 3.10 or newer is required.
  
@@ -42,7 +42,7 @@ available (for example TeX Live or MiKTeX).
 - `utils.py` imports `cartopy`. Cartopy downloads the Natural Earth map data on first use, so the first run of 
 `data_flights.ipynb` needs an internet connection.
 
-## Running the notebooks
+### Running the notebooks
  
 Start JupyterLab **from the repository root** (the notebooks use the relative paths `data/` and `images/`):
  
@@ -56,9 +56,9 @@ one random generator, so run their cells from top to bottom.
 - The notebooks are stored with their outputs, so the figures can be viewed without running anything.
 
 
-## Data
+### Data
 
-### Flights
+#### Flights
 
 Source: [1], licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
@@ -68,7 +68,7 @@ Source: [1], licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/
 | `data/airports.csv` | Airport list with coordinates Airport list with coordinates (downloaded from [OurAirports](https://ourairports.com/data/)) | |
 | `data/flight_connections.csv` | Derived: airport coordinates attached to each flight. Regenerate with `python utils.py`                                                                |
 
-### Athens air quality
+#### Athens air quality
 
 Source: [2], licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
@@ -78,11 +78,13 @@ Data set is read directly from the URL stored in `ATHENS_CSV` in `utils.py`, so
 
 
 
-## Acknowledgements
+### Acknowledgements
 
 The code uses the package [pycvxset](https://github.com/merlresearch/pycvxset) [3] for polytope operations
  and also package [data-depth](https://data-depth.github.io) [4] for halfspace depth computation. Other used packages are NumPy, SciPy, pandas,
 Matplotlib and Cartopy.
+
+----
 
 [1] Spinielli, E., Sun, J., Olive, X., Strohmeier, M. et al. (2025).
 *Dataset for EUROCONTROL PRC 2024 Data Challenge on Aircraft Take-off Weight Estimation*.

@@ -3,5 +3,7 @@ data-depth==1.2.1.1
 matplotlib==3.10.8
 numpy==2.2.6
 pandas==2.3.3
-pycvxset==1.2.0
+pycvxset @ git+https://github.com/uhrinmatej/pycvxset.git
 scipy==1.15.3
+jupyterlab==4.6.5
+ipykernel==7.3.0

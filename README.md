@@ -1,4 +1,4 @@
-## random-sets-halfspace-quantiles
+# random-sets-halfspace-quantiles
  
 Supplementary code for the paper **"Halfspace-based Quantiles of Random Convex Sets"**.
  
@@ -65,7 +65,7 @@ Source: [1], licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/
 | File | Content                                                                                                                                                |
 |---|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `data/flight_list.csv` | Copy of `flight_list.csv` from the dataset above                                                                                                       |
-| `data/airports.csv` | Airport list with coordinates Airport list with coordinates (downloaded from [OurAirports](https://ourairports.com/data/)) | |
+| `data/airports.csv` | Airport list with coordinates (downloaded from [OurAirports](https://ourairports.com/data/)) | |
 | `data/flight_connections.csv` | Derived: airport coordinates attached to each flight. Regenerate with `python utils.py`                                                                |
 
 #### Athens air quality
